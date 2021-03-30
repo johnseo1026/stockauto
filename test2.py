@@ -77,4 +77,4 @@ def post_message(token, channel, text):
 
 myToken = 'xoxb-1918510216660-1924975739585-shaV72xSnx3pqn3KKYYlv09O'
 
-post_message(myToken, "#stock", '코웨이 연재가:'+ str(offer))
+post_message(myToken, "#stock", '코웨이 현재가:'+ str(offer))
