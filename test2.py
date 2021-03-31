@@ -48,7 +48,7 @@ offer = objStockMst.GetHeaderValue(16)  #매도호가
 # print("시가", open)
 # print("고가", high)
 # print("저가", low)
-# print("매도호가", offer)
+print("매도호가", offer)
 # print("매수호가", bid)
 # print("거래량", vol)
 # print("거래대금", vol_value)
@@ -75,6 +75,6 @@ def post_message(token, channel, text):
                              )
     print(response)
 
-myToken = 'xoxb-1918510216660-1924975739585-shaV72xSnx3pqn3KKYYlv09O'
+myToken = 'xoxb-1918510216660-1909200818902-YUV1zp0aK5J2rPXO925hNx1c'
 
 post_message(myToken, "#stock", '코웨이 현재가:'+ str(offer))
